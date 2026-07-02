@@ -55,10 +55,35 @@ Task 2: Exploratory Data Analysis (EDA)
    -Age, Fare, and Passenger Class appear to be important features for predicting survival.
 
 
+# Task 3: Linear Regression
+
+## Objective
+The objective of this task was to implement and understand Linear Regression using Scikit-learn.
+
+## Steps Performed
+
+1. Loaded the Titanic dataset using Pandas.
+2. Handled missing values in Age and Embarked columns.
+3. Encoded categorical variables such as Sex and Embarked.
+4. Selected relevant features for prediction.
+5. Split the dataset into training and testing sets.
+6. Trained a Linear Regression model using Scikit-learn.
+7. Predicted fare values on the test dataset.
+8. Evaluated model performance using MAE, MSE, and R² Score.
+9. Visualized actual and predicted values using a scatter plot.
+10. Interpreted feature coefficients to understand their impact on fare prediction.
+
 ## Libraries Used
 
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
--Scikit-learn
+- Scikit-learn
+
+## Evaluation Metrics
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+
+
